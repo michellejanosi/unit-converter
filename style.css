@@ -5,5 +5,58 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  color: #FFF;
   background-color: #1F2937;
+}
+
+.container {
+  width: 550px;
+  padding-top: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #6943FF;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  margin: 33px 51px;
+}
+
+#unit {
+  width: 117px;
+  height: 83px;
+  text-align: center;
+  border: 2px solid #B295FF;
+  border-radius: 5px;
+  background-color: #6943FF;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  color: #FFF;
+  margin-bottom: 27px;
+}
+
+#convert-btn {
+  color: #3D3D3D;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 117px;
+  height: 42px;
+  background: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 34px;
 }
