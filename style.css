@@ -7,28 +7,33 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: 'Inter', sans-serif;
   color: #FFF;
-  background-color: #1F2937;
+  background: #1C1C1C;
 }
 
-.container {
-  width: 550px;
-  padding-top: 50px;
-}
-
-.main {
+.container, .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  background: #1C1C1C;
+  width: 550px;
+  height: 729px
+}
+
+.main {
   background: #6943FF;
+  width: 550px;
 }
 
 h1 {
   font-size: 28px;
   font-weight: 800;
-  line-height: 38px;
   margin: 33px 51px;
 }
 
@@ -42,7 +47,6 @@ h1 {
   font-size: 58px;
   font-style: normal;
   font-weight: 800;
-  line-height: 24px;
   color: #FFF;
   margin-bottom: 27px;
 }
@@ -51,7 +55,6 @@ h1 {
   color: #3D3D3D;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
   width: 117px;
   height: 42px;
   background: #FFF;
@@ -59,4 +62,39 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 34px;
+}
+
+.grid-list {
+  text-align: center;
+  background: #1F2937;
+;
+}
+
+.card {
+  width: 500px;
+  height: 108px;
+  background:#273549;
+  border-radius: 5px;
+  padding: 31px 77px 19px;
+  margin: 25px;
+}
+
+.card:first-child {
+  margin-top: 35px;
+}
+
+.card:last-child {
+  margin-bottom: 35px;
+}
+
+.results-header {
+  color: #CCC1FF;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.results-text {
+  font-size: 14px;
+  font-weight: 400;
 }
